@@ -1,0 +1,99 @@
+{
+  "unidades": [
+    {
+      "id": 1,
+      "nome": "SC-401",
+      "endereco": "Rodovia SC-401, 4100",
+      "cidade": "Florianópolis",
+      "bairro": "Saco Grande",
+      "cep": "88032-005"
+    },
+    {
+      "id": 2,
+      "nome": "Av. das Águias - Cidade Universitária",
+      "endereco": "Avenida Secundária, 456",
+      "cidade": "Palhoça - SC",
+      "bairro": "Pedra Branca",
+      "cep": "88137-280"
+    }
+  ],
+  "educandos": [
+    {
+      "id": 1,
+      "nome": "Pedro Rocha",
+      "unidade": 1,
+      "trilha": "Programação",
+      "insigniasDesejadas": [1, 3],
+      "insigniasConquistadas": [
+        {
+          "id": 2,
+          "dataConquista": "2023-10-01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Alice Silva",
+      "unidade": 1,
+      "trilha": "Programação",
+      "insigniasDesejadas": [2],
+      "insigniasConquistadas": [
+        {
+          "id": 1,
+          "dataConquista": "2023-09-15"
+        }
+      ]
+    }
+  ],
+  "mentores": [
+    {
+      "id": 1,
+      "nome": "Thiago Cerutti",
+      "dataInicio": "2023-01-01",
+      "educandosMentorados": [1, 2],
+      "educandosAtuais": [1]
+    },
+    {
+      "id": 2,
+      "nome": "Nico Steppat",
+      "dataInicio": "2023-03-01",
+      "educandosMentorados": [1],
+      "educandosAtuais": [2]
+    }
+  ],
+  "insignias": [
+    {
+      "id": 1,
+      "nome": "Lógica de Programação",
+      "descricao": "Domínio dos conceitos básicos de lógica de programação.",
+      "nivel": 1,
+      "descricaoNiveis": {
+        "1": "Conhecimento básico de lógica.",
+        "2": "Conhecimento intermediário de lógica.",
+        "3": "Conhecimento avançado de lógica."
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Design de Interfaces",
+      "descricao": "Habilidade em criar interfaces de usuário intuitivas.",
+      "nivel": 2,
+      "descricaoNiveis": {
+        "1": "Conhecimento básico de design.",
+        "2": "Conhecimento intermediário de design.",
+        "3": "Conhecimento avançado de design."
+      }
+    },
+    {
+      "id": 3,
+      "nome": "Análise de Dados",
+      "descricao": "Capacidade de analisar e interpretar dados.",
+      "nivel": 3,
+      "descricaoNiveis": {
+        "1": "Conhecimento básico de análise de dados.",
+        "2": "Conhecimento intermediário de análise de dados.",
+        "3": "Conhecimento avançado de análise de dados."
+      }
+    }
+  ]
+}
