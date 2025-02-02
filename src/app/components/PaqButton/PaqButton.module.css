@@ -1,0 +1,15 @@
+.container {
+  border-radius: var(--button-border-radius);
+  padding: var(--button-padding);
+  border: none;
+  background-color: var(--azul-paq);
+  font-family: var(--text-font-family);
+  font-size: var(--button-lg-font-size);
+  text-transform: uppercase;
+  color: var(--fundo-paq);
+  cursor: pointer;
+
+  &&:hover {
+    background-color: var(--foco-paq);
+  }
+}
